@@ -1,7 +1,10 @@
-tar -xvzf /home/omer/secretGenerator.tar.gz
-echo "opened the tar"
+cd /home/omer/
+wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
+tar -xvf /home/omer/secretGenerator.tar.gz
+cd /home/omer/src
+chmod +x /home/omer/src/generateSecret.sh
 mkdir /home/omer/src/secretDir
-echo "created secretDir in src"
+echo "directory created"
 rm -rf /home/omer/src/maliciousFiles
 echo "removed maclicous"
 touch /home/omer/src/secretDir/.secret
@@ -11,6 +14,6 @@ echo "given permissions to the file"
 rm /home/omer/src/important.link
 echo "removed the link"
 /bin/bash /home/omer/src/generateSecret.sh
-cat home/omer/src/.secret && echo "there is the hash"
+#cat home/omer/src/secretDir/.secret && echo "there is the hash"
 
 
