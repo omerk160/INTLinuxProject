@@ -1,9 +1,16 @@
-tar -xvzf secretGenerator.tar.gz
+tar -xvzf /home/omer/secretGenerator.tar.gz
+echo "opened the tar"
 mkdir /home/omer/src/secretDir
-rmdir maliciousFiles
+echo "created secretDir in src"
+rm -rf /home/omer/src/maliciousFiles
+echo "removed maclicous"
 touch /home/omer/src/secretDir/.secret
+echo "created .secret file"
 chmod 600 /home/omer/src/secretDir/.secret
-rm important.link
-cd /home/omer/src && bin/bash generateSecret.sh
-echo "done"
+echo "given permissions to the file"
+rm /home/omer/src/important.link
+echo "removed the link"
+/bin/bash /home/omer/src/generateSecret.sh
+cat home/omer/src/.secret && echo "there is the hash"
+
 
