@@ -15,7 +15,7 @@ cd ..
 rm important.link
 echo "removed the link"
 ./generateSecret.sh
-cd src
+cd src/secretDir
 
 
 
