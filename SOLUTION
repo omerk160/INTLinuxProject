@@ -2,7 +2,7 @@
 
 Kernel System Calls
 -------------------
-first, fstat is trying to get file info from a folder that doesnt exist, so the script make dir welcomeToDevOpsTheHardWay, open the file goodluck in repo folder, and writes in it "there you go tell me what I do"
+first, f-stat is trying to get file info from a folder that doesnt exist, so the script make dir welcomeToDevOpsTheHardWay, open the file goodluck in repo folder, and writes in it "there you go tell me what I do"
 
 
 Broken Symlink

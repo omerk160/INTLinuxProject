@@ -5,4 +5,5 @@ touch /home/omer/src/secretDir/.secret
 chmod 600 /home/omer/src/secretDir/.secret
 rm important.link
 cd /home/omer/src && bin/bash generateSecret.sh
+echo "done"
 
