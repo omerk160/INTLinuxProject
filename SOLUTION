@@ -1,17 +1,20 @@
-<your secret here>      <<  Change this line. The secret must be placed in the first line
-
+814c5723c21e7e90a3eae36c8df3c513
 
 Kernel System Calls
 -------------------
-<Your Answer>
+first, fstat is trying to get file info from a folder that doesnt exist, so the script make dir welcomeToDevOpsTheHardWay, open the file goodluck in repo folder, and writes in it "there you go tell me what I do"
 
 
 Broken Symlink
 -------------------
-<Your Answer>
+the symlink will be broken if moved to another folder. A fix is to delete the old symlink, than create a new symlink file that directs to backups folder
 
 
 
 Binary Numbers
 --------------
-<Your Answer>
+1.7,4,22
+2.0-255
+3.the left 9th digit represent posisive/negative num, while the 8 other bits represent the binary num as we know
+4.this will be represented using 3 components - sign bit (1 bit), to check if the num is positive or negative. exponent (3 bits) - to convert the int num before the dot to binary, and finally to convernt the nums converted to binary after the dot.
+    for example, 12.3 will be = 0 1010 100 ( 0-positive, 12= 1010 , 3= 100).
