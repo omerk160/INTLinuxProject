@@ -16,6 +16,6 @@ cd ..
 rm important.link
 echo "removed the link"
 ./generateSecret.sh
-#cat home/omer/src/secretDir/.secret && echo "there is the hash"
+
 
 
