@@ -2,12 +2,12 @@
 
 Kernel System Calls
 -------------------
-first, f-stat is trying to get file info from a folder that doesnt exist, so the script make dir welcomeToDevOpsTheHardWay, open the file goodluck in repo folder, and writes in it "there you go tell me what I do"
+first, the script shows drivers from the system, then, f-stat is trying to get file info from a folder that doesnt exist, so the script make dir welcomeToDevOpsTheHardWay, open the file goodluck in repo folder, and writes in it "there you go tell me what I do"
 
 
 Broken Symlink
 -------------------
-the symlink will be broken if moved to another folder. A fix is to delete the old symlink, than create a new symlink file that directs to backups folder
+the symlink will be broken if moved to another folder. A fix is to delete the old symlink, than create a new symlink file that directs to backups folder for the backups of the .tar's
 
 
 
