@@ -1,5 +1,5 @@
-wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
-tar -xvf secretGenerator.tar.gz
+#wget https://alonitac.github.io/DevOpsTheHardWay/linux_project/secretGenerator.tar.gz
+#tar -xvf secretGenerator.tar.gz
 cd src
 chmod +x generateSecret.sh
 mkdir secretDir
