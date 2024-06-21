@@ -17,4 +17,4 @@ Binary Numbers
 2.0-255
 3.the left 9th digit represent positive/negative num, while the 8 other bits represent the binary num as we know
 4.this will be represented using 3 components - sign bit (1 bit), to check if the num is positive or negative. exponent (3 bits) - to convert the int num before the dot to binary, and finally to convernt the nums converted to binary after the dot.
-    for example, 12.3 will be = 0 1010 100 ( 0-positive, 12= 1010 , 3= 100).
+    for example, 12.3 will be = 0 1010 100 ( 0-positive, 12= 1010 , 3= 100)..
